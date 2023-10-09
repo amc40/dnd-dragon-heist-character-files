@@ -19,8 +19,8 @@
             "critmultip": "2",
             "link": {
                 "name": "Mace",
-                "roll": "4d6+0",
-                "type": "radiant"
+                "roll": "1d4+3",
+                "type": "bludgeoning"
             }
         },
         {
@@ -32,8 +32,8 @@
             "critmultip": "2",
             "link": {
                 "name": "Guiding Bolt",
-                "roll": "1d4+3",
-                "type": "piercing"
+                "roll": "4d6+0",
+                "type": "radiant"
             }
         }
     ],
