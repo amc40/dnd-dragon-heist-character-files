@@ -56,7 +56,7 @@
        },
        {
             "name":"Dagger & Sneak Attack",
-            "type":"Melee",
+            "type":"Thrown",
             "range":"20/60",
             "roll":"1D20+4",
             "critrangemin":"20",
