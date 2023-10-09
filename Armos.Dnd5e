@@ -45,7 +45,7 @@
             "name":"Dagger",
             "type":"Thrown",
             "range":"20/60",
-            "roll":"1D10+4",
+            "roll":"1D20+4",
             "critrangemin":"20",
             "critmultip":"2",
             "link":{
