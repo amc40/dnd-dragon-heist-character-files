@@ -1,0 +1,59 @@
+{
+    "NPC": true,
+    "hp": "84",
+    "ac": "15",
+    "str": "18",
+    "dex": "13",
+    "con": "20",
+    "int": "7",
+    "wis": "9",
+    "cha": "7",
+    "speed": "30",
+    "reach": "5",
+    "attacks": [
+        {
+            "name": "Bite",
+            "type": "Melee",
+            "roll": "1D20+7",
+            "critrangemin": "20",
+            "critmultip": "2",
+            "link": {
+                "name": "Bite",
+                "roll": "1d6+4",
+                "type": "piercing"
+            }
+        },
+        {
+            "name": "Claw",
+            "type": "Melee",
+            "roll": "1D20+7",
+            "critrangemin": "20",
+            "critmultip": "2",
+            "link": {
+                "name": "Guiding Bolt",
+                "roll": "2d6+4",
+                "type": "slashing"
+            }
+        }
+    ],
+    "attacksDC": [],
+    "healing": [
+        {
+            "name": "Regeneration",
+            "type": "Self",
+            "roll": "10"
+        }
+    ],
+    "saves": [
+    ],
+    "skills": [
+        {
+            "name": "Perception",
+            "type": "Secret,GM",
+            "roll": "1D20+6"
+        }
+    ],
+    "immunity": [],
+    "resistance": [],
+    "vulnerability": []
+}

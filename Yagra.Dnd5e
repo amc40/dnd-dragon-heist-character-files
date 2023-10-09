@@ -1,0 +1,54 @@
+{
+    "NPC": true,
+    "hp": "32",
+    "ac": "11",
+    "str": "15",
+    "dex": "11",
+    "con": "14",
+    "int": "10",
+    "wis": "10",
+    "cha": "11",
+    "speed": "30",
+    "reach": "5",
+    "attacks": [
+        {
+            "name": "Mace",
+            "type": "Melee",
+            "roll": "1D20+4",
+            "critrangemin": "20",
+            "critmultip": "2",
+            "link": {
+                "name": "Mace",
+                "roll": "1d6+2",
+                "type": "bludgeoning"
+            }
+        },
+        {
+            "name": "Shortbow",
+            "type": "Range",
+            "range": "100/400",
+            "roll": "1D20+2",
+            "critrangemin": "20",
+            "critmultip": "2",
+            "link": {
+                "name": "Heavy Crossbow",
+                "roll": "1d10",
+                "type": "piercing"
+            },
+            "futureUse_icon": "Range"
+        }
+    ],
+    "attacksDC": [],
+    "healing": [],
+    "saves": [],
+    "skills": [
+        {
+            "name": "Intimidation [GM]",
+            "type": "Secret,GM",
+            "roll": "1D20+2"
+        }
+    ],
+    "immunity": [],
+    "resistance": [],
+    "vulnerability": []
+}

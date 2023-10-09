@@ -1,0 +1,58 @@
+{
+    "NPC": false,
+    "hp": "144",
+    "ac": "16",
+    "str": "18",
+    "dex": "15",
+    "con": "18",
+    "int": "13",
+    "wis": "12",
+    "cha": "10",
+    "speed": "30",
+    "reach": "5",
+    "attacks": [
+        {
+            "name": "Grimvault",
+            "type": "Melee",
+            "roll": "1D20+8",
+            "critrangemin": "20",
+            "critmultip": "2",
+            "link": {
+                "name": "Grimvault",
+                "roll": "2d6+4",
+                "type": "slashing"
+            }
+        },
+        {
+            "name": "Guiding Bolt",
+            "type": "Range",
+            "range": "60/240",
+            "roll": "1D20+6",
+            "critrangemin": "20",
+            "critmultip": "2",
+            "link": {
+                "name": "Double Crossbow",
+                "roll": "2d10+2",
+                "type": "piercing"
+            }
+        }
+    ],
+    "attacksDC": [],
+    "healing": [],
+    "saves": [],
+    "skills": [
+        {
+            "name": "Perception",
+            "type": "Secret,GM",
+            "roll": "1D20+5"
+        },
+        {
+            "name": "Athletics",
+            "type": "Secret,GM",
+            "roll": "1D20+8"
+        }
+    ],
+    "immunity": [],
+    "resistance": [],
+    "vulnerability": []
+}
