@@ -81,7 +81,7 @@
          {
               "name":"STR",
               "type":"Public",
-              "roll":"1D20+0"
+              "roll":"1D20+1"
          },
          {
               "name":"DEX",
@@ -91,7 +91,7 @@
          {
               "name":"CON",
               "type":"Public",
-              "roll":"1D20+0"
+              "roll":"1D20+2"
          },
          {
               "name":"INT",
@@ -101,12 +101,12 @@
          {
               "name":"WIS",
               "type":"Public",
-              "roll":"1D20-1"
+              "roll":"1D20+1"
          },
          {
               "name":"CHA",
               "type":"Public",
-              "roll":"1D20+2"
+              "roll":"1D20+3"
          }
     ],
     "skills":[
@@ -203,7 +203,7 @@
          {
               "name":"Survival",
               "type":"Public",
-              "roll":"1D20-1"
+              "roll":"1D20+1"
          },
          {
               "name":"Deception [GM]",
