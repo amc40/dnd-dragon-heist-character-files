@@ -1,7 +1,7 @@
 {
     "NPC": false,
     "hp": "9",
-    "ac": "12",
+    "ac": "14",
     "str": "12",
     "dex": "13",
     "con": "13",
@@ -35,10 +35,30 @@
                 "roll": "1d8+1",
                 "type": "piercing"
             }
+        },
+        {
+            "name": "Inflict Wounds",
+            "type": "Magic",
+            "range": "5/5",
+            "roll": "1D20+4",
+            "critrangemin": "20",
+            "critmultip": "2",
+            "link": {
+                "name": "Inflict Wounds",
+                "roll": "3d10",
+                "type": "necrotic"
+            }
         }
     ],
     "attacksDC": [],
-    "healing": [],
+    "healing": [
+        {
+            "name": "Cure Wounds",
+            "range": "5/5",
+            "type": "Magic",
+            "roll": "1D8+4"
+        }
+    ],
     "saves": [
         {
             "name": "STR",
